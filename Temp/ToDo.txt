@@ -1,0 +1,7 @@
+<!-- OPTIMIZACION -->
+1. Reemplazar las imagenes de EQUIPO
+2. Reemplazar el texto de EQUIPO
+3. Habilitar los botones del CARRUSEL
+4. Habilitar slide para el CARRUSEL
+5. Animar flecha de DESCARGAS
+6. Animar textos de home

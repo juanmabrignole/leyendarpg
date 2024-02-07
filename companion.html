@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leyenda RPG</title>
+  <link rel="icon" type="image/x-icon" href="/public/images/favicon.ico?">
+
+  <!-- CSS STYLESHEETS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+  <link rel="stylesheet" href="./public/css/styles.css" type="text/css">
+
+  <!-- BOOTSTRAP SCRIPT -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,600;0,700;1,400;1,600;1,700&family=Oswald:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- FONT AWESOME -->
+  <script src="https://kit.fontawesome.com/683c1abfd9.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a href="en.html">
+      <img class="navbar-brand" src="./public/images/LeyendaBlanco.png" alt="Leyenda">
+    </a>
+    <div class="dropdown">
+      <i class="fa-solid fa-earth-americas fa-xl"></i>
+      <a class="dropdown-toggle" href="#" id="Dropdown" type="button" data-toggle="dropdown" aria-expanded="false"></a>
+
+      <ul class="dropdown-menu" aria-labelledby="Dropdown">
+        <li>
+          <a class="dropdown-item" href="#"><i class="flag flag-us"></i>English <i class="fa fa-check text-success ms-2"></i></a>
+        </li>
+        <li>
+          <hr class="dropdown-divider" />
+        </li>
+        <li>
+          <a class="dropdown-item" href="asistente.html"><i class="flag flag-argentina"></i>Español</a>
+        </li>
+      </ul>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="team.html">TEAM</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">COMPANION <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="downloads.html">DOWNLOADS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.espacioartedual.com/producto/leyenda-juego-de-rol-incluye-dado-legendario/" target="_blank">STORE</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="asistente">
+    <div class="gridAsistente row">
+      <div class="asistenteText d-flex flex-column justify-content-end">
+        <h1>COMPANION</h1>
+        <h5>FOR YOUR LEYENDA GAMES</h5>
+      </div>
+      <div class="asistenteDescription d-flex flex-column justify-content-center">
+        <p class="">To play Leyenda you first have to choose your role in the game: Director (in charge of Framing Scenes and arbitrate on the rules), or Player (in charge of deciding what one of the Protagonists of the game will do), or Chorus (in charge of judging, expand and comment on what happens on the session). In this Companion we will condense step by step what your role does in every moment of the game.</p>
+      </div>
+      <div class="imgDemiurgoContainer d-flex justify-content-center">
+        <img class="imgDemiurgo" src="./public/images/Demiurgo.webp" alt="Demiurgo invocador">
+      </div>
+    </div>
+  </section>
+
+  <section id="roles">
+    <div class="rolesTitle d-flex justify-content-center">
+      <h1>ROLES</h1>
+    </div>
+
+    <div class="card-deck mobileCards">
+      <div class="cardRoles cardDirector card text-center">
+        <div class="card-body">
+          <h5 class="card-text d-flex justify-content-center">I’ll be</h5>
+          <div class="d-flex justify-content-center align-items-center">
+            <h5 class="cardDirectorText card-title justify-content-center">DIRECTOR</h5>
+            <i class="cardDirectorIcon fa-solid fa-circle-question" rel="tooltip" data-html="true" data-original-title="<b>What does a Director do?</b><br><p>Only one partaker can fulfill this role. In essence, the Director is in charge of Framing Scenes (describing the environment and the NPCs) and arbitrates the rules of the game. Pages 16, 60-65 (chapter).</p>" data-placement="top" data-toggle="tooltip"></i>
+          </div>
+          <div class="heptagramaContainer">
+            <img src="./public/images/Heptagrama.png" alt="Heptagrama">
+          </div>
+          <a href="director-en.html" class="cardRolesButton btn btn-lg btn-primary">CHOOSE</a>
+        </div>
+      </div>
+
+      <div class="cardRoles cardJugador shadow-4-strong card text-center">
+        <div class="card-body">
+          <h5 class="card-text d-flex justify-content-center">I’ll be</h5>
+          <div class="d-flex justify-content-center align-items-center">
+            <h5 class="cardDirectorText card-title justify-content-center">PLAYER</h5>
+            <i class="cardDirectorIcon fa-solid fa-circle-question" rel="tooltip" data-html="true" data-original-title="<b>What does a Player do?</b><br><p>Several partakers can fulfill this role. In essence, every Player is in charge of playing a sole character with honesty and passion. Pages 16, 50-59 (chapter).</p>" data-placement="top" data-toggle="tooltip"></i>
+          </div>
+          <div class="heptagramaContainer">
+            <img src="./public/images/Mega.png" alt="Mega">
+          </div>
+          <a href="player.html" class="cardRolesButton btn btn-lg btn-primary">CHOOSE</a>
+        </div>
+      </div>
+
+      <div class="cardRoles cardCoro card text-center">
+        <div class="card-body">
+          <h5 class="card-text d-flex justify-content-center">I’ll be</h5>
+          <div class="d-flex justify-content-center align-items-center">
+            <h5 class="cardDirectorText card-title justify-content-center">CHORUS</h5>
+            <i class="cardDirectorIcon fa-solid fa-circle-question" rel="tooltip" data-html="true" data-original-title="<b>What does the Chorus do?</b><br><p>Anyone can fulfill this role. In essence, the Chorus is in charge of judging the PCs and how the Community reacts, giving a broader context. Pages 17, 82-91 (chapter).</p>" data-placement="top" data-toggle="tooltip"></i>
+          </div>
+          <div class="heptagramaContainer">
+            <img src="./public/images/YinYang.png" alt="Yin Yang">
+          </div>
+          <a href="chorus.html" class="cardRolesButton btn btn-lg btn-primary">CHOOSE</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+<script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<script src="app.js"></script>
+</body>
+
+</html>

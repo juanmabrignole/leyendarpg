@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leyenda RPG</title>
+  <link rel="icon" type="image/x-icon" href="/public/images/favicon.ico?">
+
+  <!-- CSS STYLESHEETS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+  <link rel="stylesheet" href="./public/css/styles.css" type="text/css">
+
+  <!-- BOOTSTRAP SCRIPT -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,600;0,700;1,400;1,600;1,700&family=Oswald:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- FONT AWESOME -->
+  <script src="https://kit.fontawesome.com/683c1abfd9.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a href="index.html">
+      <img class="navbar-brand" src="./public/images/LeyendaBlanco.png" alt="Leyenda">
+    </a>
+    <div class="dropdown">
+      <i class="fa-solid fa-earth-americas fa-xl"></i>
+      <a class="dropdown-toggle" href="#" id="Dropdown" type="button" data-toggle="dropdown" aria-expanded="false"></a>
+
+      <ul class="dropdown-menu" aria-labelledby="Dropdown">
+        <li>
+          <a class="dropdown-item" href="#"><i class="flag flag-us"></i>English <i class="fa fa-check text-success ms-2"></i></a>
+        </li>
+        <li>
+          <hr class="dropdown-divider" />
+        </li>
+        <li>
+          <a class="dropdown-item" href="en.html"><i class="flag flag-argentina"></i>Español</a>
+        </li>
+      </ul>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link disabled" href="equipo.html">EQUIPO </a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="asistente.html">ASISTENTE <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="descargas.html">DESCARGAS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.espacioartedual.com/producto/leyenda-juego-de-rol-incluye-dado-legendario/" target="_blank">TIENDA</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <button type="button" class="btn btn-floating btn-lg" id="btn-back-to-top" title="Ir al principio.">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <section id="popupBtnsCoro">
+    <div id="accordionCoro">
+      <div>
+        <a class="button" id="btnCoro" data-toggle="collapse" data-target="#collapseCoro" aria-expanded="true" aria-controls="collapseCoro">
+          <img class="asistenteFloatingIcon" src="./public/images/YinYang.png" alt="YinYang">
+        </a>
+      </div>
+
+      <div id="collapseCoro" class="collapse" aria-labelledby="btnCoro" data-parent="#accordionCoro">
+          <h3>BEING CHORUS</h3>
+          <h5>Your Personal Goals are:</h5>
+          <p>Your personal and group amusement, Collaborating with others, and the Creation of a legendary fiction.</p>
+          <h5>Your Game Goals are:</h5>
+          <p>Find out what happens to the community, find out what happens with their Principles and find out what happens to the Premise.</p>
+          <h5>Your Main Tasks are:</h5>
+          <p>Judge the PCs and NPCs according to the community Principles. Decide how it reacts to the PC’s Actions and experiences. Decide when the Scenario’s Premise has been answered to be able to start the Epilogue.</p>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section id="directorTitle">
+    <div class="directorText d-flex justify-content-center align-items-center">
+      <h1>CHORUS</h1>
+    </div>
+    <div class="directorDescription d-flex justify-content-center">
+      <p class="">You chose to be part of the Chorus! Next you will have some cards that summarize what you have to do in every step of the game session. If you don’t understand something, mouseover (or tap if you are on a mobile device) over the <i class="cardDirectorIcon fa-solid fa-circle-question"></i> icon to get more info and the pages where that is explained in the official handbook. To your right you have a tab showing what are your Objectives and main Tasks.</p>
+    </div>
+    <div class="card-deck cardDeckEscenario d-flex align-items-center">
+      <div class="cardRoles cardDirector cardDirectorCreacion card text-center">
+        <div class="card-body cardEscenario">
+          <h5 class="card-text d-flex justify-content-center">DOES YOUR DIRECTOR HAVE A SCENARIO?</h5>
+          <div class="d-flex justify-content-center align-items-center">
+            <ul class="cardEscenarioList">
+              <li>Listen to, or read the Scenario Introduction. If you need to ask anything, do.</li>
+              <li>Listen to, or read the Community Principles. If you need to ask anything, do.</li>
+              <li>Listen to, or read the Scenario Premise. If you need to ask anything, do.</li>
+            </ul>
+          </div>
+          <a href="#directorCreacion" class="cardRolesButton btn btn-lg btn-primary">NEXT</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="directorCreacion">
+    <div class="directorText d-flex justify-content-center align-items-center">
+      <h2>CHARACTER CREATION</h2>
+    </div>
+
+    <!-- Carousel 1 -->
+    <div id="carouselDirectorCreacion" class="carousel slide" data-interval="false">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselDirectorCreacion" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselDirectorCreacion" data-slide-to="1"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="col d-flex justify-content-center cardD">
+            <div class="card cardDirector cardDirectorCreacion">
+              <div class="card-body cardDirectorCreacionBody">
+                <div class="d-flex justify-content-center align-items-center">
+                  <h5 class="card-title cardDirectorText">ASK</h5>
+                </div>
+                <p class="card-text cardDirectorCreacionText">Ask the Players questions about their PCs, taking into account the decisions they made. Judge if their answers already imply respect or transgression to the Principles and if they seem to aim towards or away from some of the Legendary Archetypes.</p>
+                <!-- <a href="#" class="cardRolesButton cardDirectorCreacionButton btn btn-primary">LEER MÁS</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="col d-flex justify-content-center cardD">
+            <div class="card cardDirector cardDirectorCreacion">
+              <div class="card-body cardDirectorCreacionBody">
+                <div class="d-flex justify-content-center align-items-center">
+                  <h5 class="card-title cardDirectorText">NPCs</h5>
+                </div>
+                <p class="card-text cardDirectorCreacionText">If any Origin, Legendary Trait or Drive suggests an NPC that calls your attention, ask the Director if they have a name already. If they don’t, consider (and comment) how they relate to the Community Principles.</p>
+                <a href="#directorActos" class="cardRolesButton cardDirectorCreacionButton btn btn-primary">NEXT</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselDirectorCreacion" role="button" data-slide="prev">
+        <i class="fa fa-chevron-left"></i>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselDirectorCreacion" role="button" data-slide="next">
+        <i class="fa fa-chevron-right"></i>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+
+  <section id="directorActos">
+    <div class="directorText d-flex justify-content-center align-items-center">
+      <h2>ACTS</h2>
+    </div>
+
+    <!-- Carousel 1 -->
+    <div id="carouselDirectorActos" class="carousel slide" data-interval="false">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselDirectorActosIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselDirectorActosIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselDirectorActosIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselDirectorActosIndicators" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="col d-flex justify-content-center cardD">
+            <div class="card cardDirector cardDirectorCreacion">
+              <div class="card-body cardDirectorCreacionBody">
+                <div class="d-flex justify-content-center align-items-center">
+                  <h5 class="card-title cardDirectorText">PCs</h5>
+                </div>
+                <p class="card-text cardDirectorCreacionText">Consider during the Scenes if any PC is respecting or transgressing the Principles, if they are achieving their Drive and if they are using too much (or too little) any of their Abilities or their Legendary Trait. Share it out loud when that happens.</p>
+                <!-- <a href="#" class="cardRolesButton cardDirectorCreacionButton btn btn-primary">LEER MÁS</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="col d-flex justify-content-center cardD">
+            <div class="card cardDirector cardDirectorCreacion">
+              <div class="card-body cardDirectorCreacionBody">
+                <div class="d-flex justify-content-center align-items-center">
+                  <h5 class="card-title cardDirectorText">NPCs</h5>
+                </div>
+                <p class="card-text cardDirectorCreacionText">If you see the opportunity to embody a nameless NPC to interact directly with any PC (and thus judge better their decisions), do it. It is also the chance to put yourself in the shoes of an NPC that you are interested in playing just for fun.</p>
+                <!-- <a href="#" class="cardRolesButton cardDirectorCreacionButton btn btn-primary">LEER MÁS</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="col d-flex justify-content-center cardD">
+            <div class="card cardDirector cardDirectorCreacion">
+              <div class="card-body cardDirectorCreacionBody">
+                <div class="d-flex justify-content-center align-items-center">
+                  <h5 class="card-title cardDirectorText">COMMUNITY</h5>
+                </div>
+                <p class="card-text cardDirectorCreacionText">Consider the effects that the PC’s Actions and Intentions will have in the community and their Principles. Suggest the Director new situations or changes to the ones they already described. Communicate what the community thinks of the PCs.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="col d-flex justify-content-center cardD">
+            <div class="card cardDirector cardDirectorCreacion">
+              <div class="card-body cardDirectorCreacionBody">
+                <div class="d-flex justify-content-center align-items-center">
+                  <h5 class="card-title cardDirectorText">PREMISE</h5>
+                  <i class="cardDirectorIcon fa-solid fa-circle-question" rel="tooltip" data-html="true"
+                    data-original-title="<b>What is the Premise?</b><br><p>Page 19 (Rules chapter).</p>"
+                    data-placement="top" data-toggle="tooltip"></i>
+                </div>
+                <p class="card-text cardDirectorCreacionText">Never forget the Premise. If you find it necessary, remind it to the rest of the group. When the Director announces the end of an Act, it is time to start the Interlude. In it, your role will be very important.</p>
+                <a href="#directorInterludios" class="cardRolesButton cardDirectorCreacionButton btn btn-primary">NEXT</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselDirectorActos" role="button" data-slide="prev">
+        <i class="fa fa-chevron-left"></i>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselDirectorActos" role="button" data-slide="next">
+        <i class="fa fa-chevron-right"></i>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+
+  <section id="directorInterludios">
+    <div class="directorText d-flex justify-content-center align-items-center">
+      <h2>INTERLUDES</h2>
+    </div>
+
+    <!-- Carousel 1 -->
+    <div id="carouselDirectorInterludios" class="carousel slide" data-interval="false">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselDirectorInterludiosIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselDirectorInterludiosIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselDirectorInterludiosIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselDirectorInterludiosIndicators" data-slide-to="3"></li>
+        <li data-target="#carouselDirectorInterludiosIndicators" data-slide-to="4"></li>
+        <li data-target="#carouselDirectorInterludiosIndicators" data-slide-to="5"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="col d-flex justify-content-center cardD">
+            <div class="card cardDirector cardDirectorCreacion">
+              <div class="card-body cardDirectorCreacionBody">
+                <div class="d-flex justify-content-center align-items-center">
+                  <h5 class="card-title cardDirectorText">REMIND</h5>
+                </div>
+                <p class="card-text cardDirectorCreacionText">After everyone has taken some time off, remind them outloud the Scenario’s Premise and the Community Principles.</p>
+                <!-- <a href="#" class="cardRolesButton cardDirectorCreacionButton btn btn-primary">LEER MÁS</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="col d-flex justify-content-center cardD">
+            <div class="card cardDirector cardDirectorCreacion">
+              <div class="card-body cardDirectorCreacionBody">
+                <div class="d-flex justify-content-center align-items-center">
+                  <h5 class="card-title cardDirectorText">VALUES</h5>
+                </div>
+                <p class="card-text cardDirectorCreacionText">Consider and comment if the Principles have changed or strengthened. If they have changed, make the appropriate modifications.</p>
+                <!-- <a href="#" class="cardRolesButton cardDirectorCreacionButton btn btn-primary">LEER MÁS</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="col d-flex justify-content-center cardD">
+            <div class="card cardDirector cardDirectorCreacion">
+              <div class="card-body cardDirectorCreacionBody">
+                <div class="d-flex justify-content-center align-items-center">
+                  <h5 class="card-title cardDirectorText">LEGENDARY ARCHETYPES</h5>
+                  <i class="cardDirectorIcon fa-solid fa-circle-question" rel="tooltip" data-html="true"
+                    data-original-title="<b>What are the Legendary Archetypes?</b><br><p>Page 29 (Rules chapter).</p>"
+                    data-placement="top" data-toggle="tooltip"></i>
+                </div>
+                <p class="card-text cardDirectorCreacionText">Consider and comment with the rest which Legendary Archetype the PCs are moving towards. They may even change.</p>
+                <!-- <a href="#" class="cardRolesButton cardDirectorCreacionButton btn btn-primary">LEER MÁS</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="col d-flex justify-content-center cardD">
+            <div class="card cardDirector cardDirectorCreacion">
+              <div class="card-body cardDirectorCreacionBody">
+                <div class="d-flex justify-content-center align-items-center">
+                  <h5 class="card-title cardDirectorText">COMMUNITY</h5>
+                </div>
+                <p class="card-text cardDirectorCreacionText">Consider and comment on other changes to the community that may have risen during what happened in the previous Act.</p>
+                <!-- <a href="#" class="cardRolesButton cardDirectorCreacionButton btn btn-primary">LEER MÁS</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="col d-flex justify-content-center cardD">
+            <div class="card cardDirector cardDirectorCreacion">
+              <div class="card-body cardDirectorCreacionBody">
+                <div class="d-flex justify-content-center align-items-center">
+                  <h5 class="card-title cardDirectorText">PREMISE</h5>
+                  <i class="cardDirectorIcon fa-solid fa-circle-question" rel="tooltip" data-html="true"
+                    data-original-title="<b>What is the Premise?</b><br><p>Page 19 (Rules chapter).</p>"
+                    data-placement="top" data-toggle="tooltip"></i>
+                </div>
+                <p class="card-text cardDirectorCreacionText">If you think the Premise has been resolved, it is time to announce it to the group and move towards the Epilogue. Skip the next step.</p>
+                <a href="#directorEpilogo" class="cardRolesButton cardDirectorCreacionButton btn btn-primary">GO TO EPILOGUE</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="col d-flex justify-content-center cardD">
+            <div class="card cardDirector cardDirectorCreacion">
+              <div class="card-body cardDirectorCreacionBody">
+                <div class="d-flex justify-content-center align-items-center">
+                  <h5 class="card-title cardDirectorText">QUESTIONS</h5>
+                </div>
+                <p class="card-text cardDirectorCreacionText">Answer the questions the Director and Players may have before starting a new Act.</p>
+                <a href="#directorActos" class="cardRolesButton cardDirectorCreacionButton btn btn-primary">NEW ACT</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselDirectorInterludios" role="button" data-slide="prev">
+        <i class="fa fa-chevron-left"></i>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselDirectorInterludios" role="button" data-slide="next">
+        <i class="fa fa-chevron-right"></i>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+
+  <section id="directorEpilogo">
+    <div class="directorText d-flex justify-content-center align-items-center">
+      <h2>EPILOGUE</h2>
+    </div>
+
+    <div id="carouselDirectorEpilogo" class="carousel slide" data-interval="false">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselDirectorEpilogo" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselDirectorEpilogo" data-slide-to="1"></li>
+        <li data-target="#carouselDirectorEpilogo" data-slide-to="2"></li>
+        <li data-target="#carouselDirectorEpilogo" data-slide-to="3"></li>
+        <li data-target="#carouselDirectorEpilogo" data-slide-to="4"></li>
+
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="col d-flex justify-content-center cardD">
+            <div class="card cardDirector cardDirectorCreacion">
+              <div class="card-body cardDirectorCreacionBody">
+                <div class="d-flex justify-content-center align-items-center">
+                  <h5 class="card-title cardDirectorText">FINAL SCENES</h5>
+                </div>
+                <p class="card-text cardDirectorCreacionText">Pay close attention to the final Scene of each Player, ask questions and make the suggestions you need. For now, keep your suggestions and judgments.</p>
+                <!-- <a href="#" class="cardRolesButton cardDirectorCreacionButton btn btn-primary">LEER MÁS</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="col d-flex justify-content-center cardD">
+            <div class="card cardDirector cardDirectorCreacion">
+              <div class="card-body cardDirectorCreacionBody">
+                <div class="d-flex justify-content-center align-items-center">
+                  <h5 class="card-title cardDirectorText">COMMUNITY</h5>
+                </div>
+                <p class="card-text cardDirectorCreacionText">Bargain with the other voices of the Chorus which are the most important changes to the community and their Principles.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="col d-flex justify-content-center cardD">
+            <div class="card cardDirector cardDirectorCreacion">
+              <div class="card-body cardDirectorCreacionBody">
+                <div class="d-flex justify-content-center align-items-center">
+                  <h5 class="card-title cardDirectorText">PREMISE</h5>
+                  <i class="cardDirectorIcon fa-solid fa-circle-question" rel="tooltip" data-html="true"
+                    data-original-title="<b>What is the Premise?</b><br><p>Page 19 (Rules chapter).</p>"
+                    data-placement="top" data-toggle="tooltip"></i>
+                </div>
+                <p class="card-text cardDirectorCreacionText">Bargain with the other voices of the Chorus which is the answer to the Scenario’s Premise. Once you have decided it, share it with the group.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="col d-flex justify-content-center cardD">
+            <div class="card cardDirector cardDirectorCreacion">
+              <div class="card-body cardDirectorCreacionBody">
+                <div class="d-flex justify-content-center align-items-center">
+                  <h5 class="card-title cardDirectorText">LEGEND PATTERN</h5>
+                  <i class="cardDirectorIcon fa-solid fa-circle-question" rel="tooltip" data-html="true"
+                    data-original-title="<b>What Legend Patterns are there?</b><br><p>Pages 88-89 (Roles chapter).</p>"
+                    data-placement="top" data-toggle="tooltip"></i>
+                </div>
+                <p class="card-text cardDirectorCreacionText">Bargain with the other voices of the Chorus what will the Legend Pattern you have just forged. It can be a mix of more than one Pattern.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="col d-flex justify-content-center cardD">
+            <div class="card cardDirector cardDirectorCreacion">
+              <div class="card-body cardDirectorCreacionBody">
+                <div class="d-flex justify-content-center align-items-center">
+                  <h5 class="card-title cardDirectorText">LEGENDARY ARCHETYPES</h5>
+                  <i class="cardDirectorIcon fa-solid fa-circle-question" rel="tooltip" data-html="true"
+                    data-original-title="<b>What are the Legendary Archetypes?</b><br><p>Page 29 (Rules chapter).</p>"
+                    data-placement="top" data-toggle="tooltip"></i>
+                </div>
+                <p class="card-text cardDirectorCreacionText">Bargain with the other voices of the Chorus which Legendary Archetype will each PC embody.<br>Thanks for playing and being part of this great Leyenda!</p>
+                <a href="asistente.html" class="cardRolesButton cardDirectorCreacionButton btn btn-primary">BACK</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselDirectorEpilogo" role="button" data-slide="prev">
+        <i class="fa fa-chevron-left"></i>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselDirectorEpilogo" role="button" data-slide="next">
+        <i class="fa fa-chevron-right"></i>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+  </section>
+
+
+
+  <script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>

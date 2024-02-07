@@ -1,0 +1,1004 @@
+body {
+  font-family: Montserrat;
+  margin: 0;
+  background-color: #658098;
+  color: #fff;
+}
+
+h1 {
+  font-family: Oswald;
+  font-size: 150px;
+}
+
+h2 {
+  font-family: Oswald;
+  font-size: 100px;
+}
+
+h3 {
+  font-family: Oswald;
+  font-size: 56px;
+}
+
+h4 {
+  font-family: Oswald;
+  font-size: 32px;
+}
+
+h5 {
+  font-size: 28px;
+  letter-spacing: 4px;
+}
+
+p {
+  text-align: justify;
+  line-height: 2rem;
+}
+
+li {
+  text-align: left;
+}
+
+/* NAVBAR */
+
+#navbarNav {
+  justify-content: flex-end;
+}
+
+.navbar {
+  background-color: #141B31;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 16;
+}
+
+.navbar-brand {
+  width: 200px;
+  height: auto;
+}
+
+.row {
+  margin-right: 0;
+}
+
+/* TITLE */
+
+#title {
+padding-top: 140px;
+}
+
+.gridTitle {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+
+.imgTeodoraContainer {
+  grid-column: 2 / 4;
+  grid-row: 1 / 5;
+}
+
+.titleText {
+  position: relative;
+  padding-left: 20%;
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+}
+
+.titleDescription {
+  position: relative;
+  padding-left: 20%;
+  padding-right: 10%;
+  text-align: justify;
+  grid-column: 1;
+  grid-row: 3 / 5;
+}
+
+.imgTeodora {
+  width: 578px;
+  height: 817px;
+}
+
+/* JUEGO DE ROL */
+
+#juegoRol {
+  background-color: #fff;
+  padding: 5% 0 5% 5%;
+}
+
+.imgDados {
+  width: 558px;
+  height: 503px;
+}
+
+.juegoRolTitle {
+  color: #141B31;
+  text-align: right;
+  line-height: 148px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.juegoRolDescription {
+  color: #141B31;
+  text-align: left;
+  margin: 0;
+}
+
+.imgSlide1 {
+  width: 100%;
+
+}
+
+.col {
+  position: relative;
+}
+
+/* ESPECIAL Y CARRUSEL */
+
+#leyendaEspecial {
+  background-color: #658098;
+  padding: 50px 0;
+}
+
+
+#carouselLeyenda {
+  padding: 20px 0;
+}
+
+.carousel-inner {
+  width: 90%;
+  margin: 0px auto;
+}
+
+.top-content {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.carousel-control-prev {
+  font-size: 40px;
+  color: #444;
+}
+
+.carousel-control-next {
+  font-size: 40px;
+  color: #444;
+  }
+
+.top-content .carousel-control-prev {
+    left: 0px;
+    justify-content: start;
+    border-bottom: 0;
+}
+
+.top-content .carousel-control-next {
+    right: 0px;
+    justify-content: end;
+    border-bottom: 0;
+}
+
+.carouselText {
+  text-align: left;
+}
+
+.carousel-indicators {
+  margin-bottom: 0;
+}
+
+.carousel-indicators li, .carousel-indicators li.active {
+	width: 10px;
+	height: 10px;
+	border: none;
+	border-radius: 50%;
+	margin: 1px 4px;
+	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+
+.carouselTitleMobile ul {
+  color: #141B31;
+}
+
+.carouselTitleMobile p {
+  color: #141B31;
+}
+
+/* LLAMADA A ACCION */
+#callTienda {
+  background-image: url(../images/ImgCallTienda.webp);
+  text-align: center;
+  padding: 10% 0;
+}
+
+.gridTienda {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(50px, auto);
+}
+
+.containerTiendaTexto {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.containerTiendaButton {
+  position: relative;
+  grid-column: 1 / 2;
+  grid-row: 4 / 5;
+}
+
+.callTexto {
+}
+
+.callButton {
+  background-color: #541a32;
+  border-color: #3b0a1f;
+  border-radius: 0;
+  font-size: 32px;
+  font-family: Oswald;
+  font-weight: 400;
+  padding: 6px 30px;
+}
+
+.callButton:hover {
+  background-color: #8c4c67;
+  border-color: #672e46;
+}
+
+
+/* DESCARGAS */
+#download {
+  background-color: #658098;
+  padding: 160px 10px 50px 10px;
+}
+
+#headingOne, #headingTwo, #headingThree, #headingFour, #headingFive {
+  background-color: #658098;
+}
+
+.download1 {
+  padding: 1rem 0;
+}
+
+.downloadText {
+  padding: 0px;
+}
+
+.downloadButton {
+  width: 38px;
+  height: 51px;
+}
+
+.download1Collapse {
+  background-color: #141B31;
+  padding: 1rem 0;
+}
+
+.download1CollapseText {
+  color: #fff;
+  padding: 0 3rem;
+}
+
+.imgDownload1 {
+  width: 148px;
+  height: 210px;
+}
+
+.downloadLink {
+  color:  #141B31;
+  text-decoration: none;
+}
+
+.card-header {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+#accordion .card {
+  border-bottom: 0;
+  border-color: #141b31;
+}
+
+#accordion:last-child {
+  border-bottom: 1px solid;
+  border-color: #141b31;
+}
+
+/* EQUIPO */
+
+#equipo {
+padding-top: 10%;
+margin: 0 5%;
+}
+
+.equipoTitle {
+  margin-bottom: 5%;
+}
+
+.equipoRows {
+  padding: 5% 0;
+}
+
+.equipoImgContainer {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+.equipoImg {
+  object-fit: contain;
+  display: flex;
+  width: 80%;
+  height: auto;
+}
+
+.equipoTextContainer {
+  display: flex;
+  align-items: center;
+}
+
+
+@media screen and (max-width: 768px) {
+  .imgTeodora {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .titleText {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.gridRol {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  margin-right: 7%;
+}
+
+.imgRolContainer {
+  grid-column: 1 / 3;
+  grid-row: 1 / 2;
+}
+
+.titleRolContainer {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+}
+
+.textRolContainer {
+  grid-column: 4 / 5;
+  grid-row: 1 / 2;
+  margin-top: 30px;
+}
+
+/* ASISTENTE */
+
+#asistente {
+padding: 10% 0;
+margin: 0 5%;
+}
+
+#roles {
+  background-color: #fff;
+  padding: 5%;
+}
+
+.card-deck {
+  margin: 0;
+}
+
+.gridAsistente {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.asistenteText {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.asistenteDescription {
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+  padding-right: 10%;
+}
+
+.imgDemiurgoContainer {
+  grid-column: 2 / 3;
+  grid-row: 1 / 5;
+}
+
+.rolesTitle {
+  color: #141B31;
+  padding-bottom: 3%;
+}
+
+.cardRoles {
+  border-radius: 1rem;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.cardDirector {
+  padding: 0;
+}
+
+.cardJugador {
+  background-color: #672E46;
+}
+
+.cardCoro {
+  background-color: #3B0A1F;
+}
+
+.heptagramaContainer {
+  margin: 20% 0;
+}
+
+.cardRolesButton {
+  background-color: #541A32;
+  border-color: #21000E;
+  border-width: thin;
+  border-radius: 0.5rem;
+  padding: 6px 30px;
+  appearance: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+}
+
+.cardRolesButton:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+  background-color: #672e46;
+  border-color: #21000E;
+}
+
+.cardRolesButton:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.tooltip-inner {
+  max-width: 300px;
+  background-color: #21000E;
+}
+
+.cardDirectorText, .cardDirectorIcon {
+  display: inline;
+  margin: 0;
+}
+
+.cardDirectorIcon {
+  padding-left: 5px;
+  opacity: 60%;
+}
+
+/* DIRECTOR */
+
+#directorCreacion, #directorActo0, #directorInterludio0, #directorActos, #directorInterludios, #directorEpilogo {
+  padding: 8% 0;
+}
+
+#directorTitle {
+  padding: 10% 0;
+  margin: 0 5%;
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  background-color: none;
+  color: #444;
+  font-size: 40px;
+  z-index: 97;
+}
+
+#btnDirector, #btnJugador, #btnCoro {
+  position: fixed;
+  top: 8rem;
+  right: -5px;
+  z-index: 99;
+  background-color: #141B31;
+  width: 4rem;
+  border-radius: 10%;
+  padding: 0.2rem;
+}
+
+
+#popupBtnsDirector, #popupBtnsJugador, #popupBtnsCoro {
+  z-index: 99;
+}
+
+.cardRoles.cardDirector.cardDirectorCreacion {
+  margin-top: 0;
+}
+
+.asistenteFloatingIcon {
+  width: 3rem;
+  height: auto;
+  z-index: 99;
+}
+
+/* .overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 99;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 10% auto;
+  padding: 20px;
+  background: #658098;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h5 {
+  margin-top: 0px;
+  color: #fff;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #fff;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+} */
+
+#collapseDirector, #collapseJugador, #collapseCoro {
+  background-color: #141B31;
+  position: fixed;
+  top: 8rem;
+  right: -5px;
+  max-width: 650px;
+  padding: 3rem;
+  z-index: 98;
+  border-radius: 1%;
+}
+
+.cardDeckEscenario {
+  margin: 0 15%;
+}
+
+.directorDescription {
+  padding: 5% 15%;
+}
+
+.cardEscenarioList {
+  padding: 3% 0;
+}
+
+.cardDirector {
+  background-color: #8C4C67;
+}
+
+.cardDirectorCreacion {
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  width: 25rem;
+  border-radius: 2rem;
+  text-align: center;
+  margin: 5% 0;
+}
+
+.cardDirectorCreacionBody {
+  margin: 5% 0;
+}
+
+.cardDirectorCreacionText {
+  padding: 15% 5%;
+}
+
+.cardDirectorCreacionButton {
+  width: 60%;
+}
+
+/* LANGUAGE SELECTOR */
+.dropdown-toggle {
+  color: #658098;
+}
+
+.dropdown-menu {
+  background-color: #141B31;
+  border-color: #fff;
+}
+
+.dropdown-item {
+  color: #fff;
+  font-family: Montserrat;
+}
+
+
+/* MEDIA QUERIES */
+
+/* Wide Tablet */
+@media(min-width:768px) and (max-width: 1024px) {
+  .titleText {
+    padding-left: 10%;
+  }
+
+  .titleDescription {
+    padding-left: 10%;
+  }
+
+  .imgTeodora {
+    width: 100%;
+    height: auto;
+  }
+
+  .imgDados {
+    width: 100%;
+    height: auto;
+  }
+
+  .imgRolContainer {
+    display: flex;
+    align-items: center;
+  }
+
+  .popup {
+    margin: 12% auto;
+    width: 55%;
+  }
+}
+
+/* Tablet */
+@media(min-width: 425px) and (max-width: 768px) {
+  .titleText {
+    grid-column: 1/ 3;
+    padding-left: 5%;
+    margin-top: 15%;
+  }
+
+  .imgTeodoraContainer {
+    grid-row: 3 / 5;
+  }
+
+  .titleDescription {
+    margin-top: 15%;
+  }
+
+  #juegoRol {
+    padding-left: 0;
+  }
+
+  .gridRol {
+    grid-template-columns: repeat(5, 1fr);
+    margin-right: 0;
+  }
+
+  .imgDados {
+    width: 100%;
+    height: auto;
+    align-self: center;
+  }
+
+  .juegoRolTitle {
+    padding-left: 0;
+  }
+
+  .imgRolContainer {
+    grid-column: 1 / 4;
+    grid-row: 1 / 3;
+    display: flex;
+    justify-content: center;
+  }
+
+  .titleRolContainer {
+    grid-column: 4 / 6;
+    grid-row: 1 / 2;
+  }
+
+  .textRolContainer {
+    grid-column: 4 / 6;
+    grid-row: 2 / 3;
+    margin-top: 30px;
+    margin-right: 30px;
+  }
+
+  #directorTitle {
+    padding: 15% 0 0 0;
+    margin: 0 5% 10% 5%;
+  }
+
+  #directorCreacion, #directorActo0, #directorInterludio0, #directorActos, #directorInterludios, #directorEpilogo {
+    padding: 15% 0;
+  }
+
+  .cardDeckEscenario {
+    margin: 0 5%;
+  }
+
+  .cardEscenario {
+    padding: 20px 50px;
+  }
+
+  .popup {
+    margin: 20% auto;
+    width: 55%;
+  }
+}
+
+/* Mobile */
+@media(max-width: 425px) {
+  h1 {
+    font-size: 90px;
+  }
+  .titleText {
+    grid-column: 1 / 3;
+    padding-left: 5%;
+  }
+
+  .imgTeodoraContainer {
+    grid-row: 3 / 6;
+    grid-column: 1 / 3;
+  }
+
+  .titleDescription {
+    grid-column: 1 / 3;
+    grid-row: 6 / 8;
+    padding-left: 10%;
+
+  }
+
+  #juegoRol {
+    padding-left: 0;
+  }
+
+  .gridRol {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 10px;
+  }
+
+  .imgRolContainer {
+    grid-column: 1 / 3;
+  }
+
+  .imgDados {
+    width: 100%;
+    height: auto;
+    align-self: center;
+  }
+
+  .titleRolContainer {
+    grid-column: 1 / 3;
+    grid-row: 3 / 5;
+    padding: 0 20px;
+  }
+
+  .juegoRolTitle {
+    text-align: center;
+    padding: 0;
+  }
+
+  .textRolContainer {
+    grid-column: 1 / 3;
+    grid-row: 5 / 7;
+    margin-right: 0;
+  }
+
+  .carouselTitleMobile {
+    text-align: center;
+  }
+
+  .downloadDescription {
+    display: none;
+  }
+
+  #asistente {
+    padding-top: 40%;
+  }
+
+  .asistenteText h1, h5 {
+    text-align: center;
+  }
+
+  .asistenteDescription {
+    padding: 0 5%;
+  }
+
+  .gridAsistente {
+    grid-template-columns: auto;
+    grid-gap: 0;
+  }
+
+  .mobileCards {
+    padding: 2rem;
+  }
+
+  .imgDemiurgo {
+    display: none;
+  }
+
+  .gridAsistente {
+    grid-column: auto;
+  }
+
+  #directorTitle {
+    padding: 40% 0 0 0;
+    margin: 0 0 10% 0;
+  }
+
+  .directorDescription {
+    padding: 5%;
+  }
+
+  .cardEscenario h5 {
+    font-size: 24px;
+  }
+
+  .cardEscenarioList li {
+    font-size: 13px;
+  }
+
+  .directorText h1 {
+    font-size: 80px;
+  }
+
+  .directorText h2 {
+    font-size: 65px;
+    text-align: center;
+  }
+
+  .cardDirector p {
+    font-size: 12px;
+  }
+
+  .cardDirector h5 {
+    font-size: 24px;
+  }
+
+  .card-deck.cardDeckEscenario {
+    margin: 0;
+  }
+
+  #directorCreacion, #directorActo0, #directorInterludio0, #directorActos, #directorInterludios, #directorEpilogo {
+    padding: 15% 0;
+  }
+
+  .cardDeckEscenario {
+    margin: 0 5%;
+  }
+
+  .cardEscenario {
+    padding: 20px 50px;
+  }
+
+  .popup {
+    margin: 20% auto;
+    width: 55%;
+  }
+
+  #collapseDirector, #collapseJugador, #collapseCoro {
+    top: 8rem;
+    right: -5px;
+    max-width: 320px;
+    max-height: 430px;
+    padding: 1rem;
+  }
+
+  #collapseDirector h3 {
+    font-size: 28px;
+  }
+
+  #collapseDirector h5 {
+    font-size: 16px;
+  }
+
+  #collapseDirector p {
+    font-size: 12px;
+    line-height: 1.3;
+  }
+
+  #collapseJugador h3 {
+    font-size: 28px;
+  }
+
+  #collapseJugador h5 {
+    font-size: 16px;
+  }
+
+  #collapseJugador p {
+    font-size: 12px;
+    line-height: 1.3;
+  }
+
+  #collapseCoro h3 {
+    font-size: 28px;
+  }
+
+  #collapseCoro h5 {
+    font-size: 16px;
+  }
+
+  #collapseCoro p {
+    font-size: 12px;
+    line-height: 1.3;
+  }
+
+  .asistenteFloatingIcon {
+    width: 1.5rem;
+  }
+
+  #btnDirector, #btnJugador, #btnCoro {
+    position: fixed;
+    top: 8rem;
+    right: -5px;
+    z-index: 99;
+    width: 2.2rem;
+    border-radius: 10%;
+    padding: 0.2rem;
+  }
+
+  .cardDirectorCreacion {
+    box-shadow: rgb(38, 57, 77) 0px 10px 15px -10px;
+    width: 25rem;
+    border-radius: 2rem;
+    text-align: center;
+    margin: 5% 0;
+  }
+
+  .cardD {
+    padding: 0;
+  }
+
+  .cardRoles {
+    max-width: 310px;
+  }
+
+  #btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 0px;
+    display: none;
+    background-color: none;
+    color: #444;
+    font-size: 40px;
+    z-index: 97;
+  }
+}

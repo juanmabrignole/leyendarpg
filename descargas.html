@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leyenda RPG</title>
+  <link rel="icon" type="image/x-icon" href="/public/images/favicon.ico?">
+
+  <!-- CSS STYLESHEETS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="./public/css/styles.css" type="text/css">
+
+  <!-- BOOTSTRAP SCRIPT -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,600;0,700;1,400;1,600;1,700&family=Oswald:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/683c1abfd9.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a href="en.html">
+      <img class="navbar-brand" src="./public/images/LeyendaBlanco.png" alt="Leyenda">
+    </a>
+    <div class="dropdown">
+      <i class="fa-solid fa-earth-americas fa-xl"></i>
+      <a class="dropdown-toggle" href="#" id="Dropdown" type="button" data-toggle="dropdown" aria-expanded="false"></a>
+
+      <ul class="dropdown-menu" aria-labelledby="Dropdown">
+        <li>
+          <a class="dropdown-item" href="#"><i class="flag flag-ar"></i>Español <i class="fa fa-check text-success ms-2"></i></a>
+        </li>
+        <li>
+          <hr class="dropdown-divider" />
+        </li>
+        <li>
+          <a class="dropdown-item" href="downloads.html"><i class="flag flag-us"></i>English</a>
+        </li>
+      </ul>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link disabled" href="equipo.html">EQUIPO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="asistente.html">ASISTENTE</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="descargas.html">DESCARGAS<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.espacioartedual.com/producto/leyenda-juego-de-rol-incluye-dado-legendario/" target="_blank">TIENDA</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="download">
+    <div id="accordion">
+      <div class="card">
+        <div class="card-header row" id="headingOne">
+          <div class="col-2 col-md-1 d-flex justify-content-center">
+            <button class="btn shadow-none" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <i class="fas fa-chevron-down fa-2x d-flex align-self-center"></i>
+            </button>
+          </div>
+          <div class="col-2 col-md-1 d-flex justify-content-center align-items-center">
+            <a class="downloadLink" href="./public/downloads/HojaDePJLeyenda.pdf" target="_blank" download>
+              <i class="fas fa-file-download fa-3x d-flex align-self-center"></i>
+            </a>
+
+          </div>
+          <div class="downloadText col-8 col-md-4 d-flex justify-content-center align-items-center">
+            <h4>HOJA DE PERSONAJE</h4>
+          </div>
+          <div class="downloadDescription col-md-6">
+            <p>Hoja de referencia para los trasfondos de cada personaje jugador.</p>
+          </div>
+        </div>
+
+        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+          <div class="card-body download1Collapse">
+            <div class="row">
+              <div class="col-lg-1">
+              </div>
+              <div class="col-md-9 col-lg-8 d-flex align-items-center">
+                <p class="download1CollapseText">Cada escenario te va a proporcionar las opciones para que puedas crear tu personaje según el trasfondo que hayas elegido. En esta sección vas a poder descargar la Hoja de Personaje necesaria para poder anotar las opciones de tu trasfondo y otras cosas que surjan durante el juego. El archivo viene en formato PDF por lo cual vas a necesitar un lector de archivos que pueda abrir el formato.</p>
+              </div>
+              <div class="col-md-3 d-flex justify-content-center align-items-center">
+                <img class="imgDownload1" src="./public/images/HojaPJSmall.webp" alt="Hoja de Pj Chica">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header row" id="headingTwo">
+          <div class="col-2 col-md-1 d-flex justify-content-center">
+            <button class="btn shadow-none" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+              <i class="fas fa-chevron-down fa-2x d-flex align-self-center"></i>
+            </button>
+          </div>
+          <div class="col-2 col-md-1 d-flex justify-content-center align-items-center">
+            <a class="downloadLink" href="./public/downloads/HojasDeEscenarios.rar" target="_blank" download>
+              <i class="fas fa-file-download fa-3x d-flex align-self-center"></i>
+            </a>
+          </div>
+          <div class="downloadText col-8 col-md-4 d-flex justify-content-center align-items-center">
+            <h4>HOJAS DE ESCENARIOS</h4>
+          </div>
+          <div class="downloadDescription col-md-6">
+            <p>Hojas necesarias para crear escenarios y sus comunidades para el juego.</p>
+          </div>
+        </div>
+
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+          <div class="card-body download1Collapse">
+            <div class="row">
+              <div class="col-lg-1">
+              </div>
+              <div class="col-md-9 col-lg-8 d-flex align-items-center">
+                <p class="download1CollapseText">En Leyenda podés crear cuatro tipos de escenarios distintos. Acá te proveemos las hojas para cada uno de ellos y también para crear la comunidad central de cada juego. Cada archivo se encuentra en formato PDF y todos vienen compilados en formato RAR, vas a necesitar aplicaciones específicas para poder abrir ambos formatos.</p>
+              </div>
+              <div class="col-md-3 d-flex justify-content-center align-items-center">
+                <img class="imgDownload1" src="./public/images/HojaComunidadSmall.webp" alt="Hoja de Pj Chica">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header row" id="headingThree">
+          <div class="col-2 col-md-1 d-flex justify-content-center align-items-center">
+            <button class="btn shadow-none" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+              <i class="fas fa-chevron-down fa-2x d-flex align-self-center"></i>
+            </button>
+          </div>
+          <div class="col-2 col-md-1 d-flex justify-content-center align-items-center">
+            <a class="downloadLink" href="./public/downloads/ResumenDeReglas.pdf" target="_blank" download>
+              <i class="fas fa-file-download fa-3x d-flex align-self-center"></i>
+            </a>
+
+          </div>
+          <div class="downloadText col-8 col-md-4 d-flex justify-content-center align-items-center">
+            <h4>RESUMEN DE REGLAS</h4>
+          </div>
+          <div class="downloadDescription col-md-6">
+            <p>Acá tenés todas las reglas que puedas llegar a necesitar durante una partida.</p>
+          </div>
+        </div>
+
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+          <div class="card-body download1Collapse">
+            <div class="row">
+              <div class="col-lg-1">
+              </div>
+              <div class="col-md-9 col-lg-8 d-flex align-items-center">
+                <p class="download1CollapseText">En este PDF compilamos todas las reglas importantes de Leyenda, junto a otras referencias, para que puedas tener fácil acceso en tus partidas. Están todas en forma de tarjeta para poder tener a mano durante el juego e incluyen las páginas donde podés encontrar dicha regla de ser necesario consultar el libro.</p>
+              </div>
+              <div class="col-md-3 d-flex justify-content-center align-items-center">
+                <img class="imgDownload1" src="./public/images/ResumenReglasSmall.webp" alt="Hoja de Pj Chica">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header row" id="headingFour">
+          <div class="col-2 col-md-1 d-flex justify-content-center align-items-center">
+            <button class="btn shadow-none" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+              <i class="fas fa-chevron-down fa-2x d-flex align-self-center"></i>
+            </button>
+          </div>
+          <div class="col-2 col-md-1 d-flex justify-content-center  align-items-center">
+            <a class="downloadLink" href="./public/downloads/LeyendaGuiaInicio.rar" target="_blank" download>
+              <i class="fas fa-file-download fa-3x d-flex align-self-center"></i>
+            </a>
+
+          </div>
+          <div class="downloadText col-8 col-md-4 d-flex justify-content-center align-items-center">
+            <h4>GUÍA DE INICIO RÁPIDO</h4>
+          </div>
+          <div class="downloadDescription col-md-6">
+            <p>Si querés jugar Leyenda y no tenés el libro esta guía te va a ayudar a empezar.</p>
+          </div>
+        </div>
+
+        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+          <div class="card-body download1Collapse">
+            <div class="row">
+              <div class="col-lg-1">
+              </div>
+              <div class="col-md-9 col-lg-8 d-flex align-items-center">
+                <p class="download1CollapseText">Esta es la Guía de Inicio Rápido para Leyenda, en ella vas a encontrar todo lo que necesitás para poder tener tu primer experiencia con el sistema de juego. Sus reglas básicas y un escenario breve te van a permitir jugar tu primer partida de Leyenda antes que puedas tener el libro. Queremos que conozcas el juego y te emociones tanto como nosotros.</p>
+              </div>
+              <div class="col-md-3 d-flex justify-content-center align-items-center">
+                <img class="imgDownload1" src="./public/images/GuiaInicioSmall.webp" alt="Hoja de Pj Chica">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card cardLast">
+        <div class="card-header row" id="headingFive">
+          <div class="col-2 col-md-1 d-flex justify-content-center align-items-center">
+            <button class="btn shadow-none" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+              <i class="fas fa-chevron-down fa-2x d-flex align-self-center"></i>
+            </button>
+          </div>
+          <div class="col-2 col-md-1 d-flex justify-content-center  align-items-center">
+            <a class="downloadLink" href="./public/downloads/StickersLeyenda.ai" target="_blank" download>
+              <i class="fas fa-file-download fa-3x d-flex align-self-center"></i>
+            </a>
+
+          </div>
+          <div class="downloadText col-8 col-md-4 d-flex justify-content-center align-items-center">
+            <h4>STICKERS DADO LEGENDARIO</h4>
+          </div>
+          <div class="downloadDescription col-md-6">
+            <p>Stickers con las distintas caras del Dado Legendario para que puedas imprimir.</p>
+          </div>
+        </div>
+
+        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+          <div class="card-body download1Collapse">
+            <div class="row">
+              <div class="col-lg-1">
+              </div>
+              <div class="col-md-9 col-lg-8 d-flex align-items-center">
+                <p class="download1CollapseText">Acá podés encontrar el Dado Legendario en forma de stickers, de esta manera siempre vas a poder tener acceso a uno sin la necesidad de tenerlo en físico. Con este archivo vas a poder imprimir las caras del Dado Legendario y pegarlas a cualquier dado de doce caras. El formato del archivo es AI (Adobe Illustrator), que es el que suelen pedir las imprentas para stickers.</p>
+              </div>
+              <div class="col-md-3 d-flex justify-content-center align-items-center">
+                <img class="imgDownload1" src="./public/images/StickersLeyendaSmall.webp" alt="Hoja de Pj Chica">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+  </section>
+
+</body>
+
+</html>

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leyenda RPG</title>
+  <link rel="icon" type="image/x-icon" href="/public/images/favicon.ico?">
+
+  <!-- CSS STYLESHEETS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="./public/css/styles.css" type="text/css">
+
+  <!-- BOOTSTRAP SCRIPT -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,600;0,700;1,400;1,600;1,700&family=Oswald:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- FONT AWESOME -->
+  <script src="https://kit.fontawesome.com/683c1abfd9.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a href="en.html">
+      <img class="navbar-brand" src="./public/images/LeyendaBlanco.png" alt="Leyenda">
+    </a>
+    <div class="dropdown">
+      <i class="fa-solid fa-earth-americas fa-xl"></i>
+      <a class="dropdown-toggle" href="#" id="Dropdown" type="button" data-toggle="dropdown" aria-expanded="false"></a>
+
+      <ul class="dropdown-menu" aria-labelledby="Dropdown">
+        <li>
+          <a class="dropdown-item" href="#"><i class="flag flag-us"></i>English <i class="fa fa-check text-success ms-2"></i></a>
+        </li>
+        <li>
+          <hr class="dropdown-divider" />
+        </li>
+        <li>
+          <a class="dropdown-item" href="index.html"><i class="flag flag-argentina"></i>Español</a>
+        </li>
+      </ul>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="team.html">TEAM</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="companion.html">COMPANION</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="downloads.html">DOWNLOADS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.espacioartedual.com/producto/leyenda-juego-de-rol-incluye-dado-legendario/" target="_blank">STORE</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="title">
+    <div class="gridTitle row">
+      <div class="titleText d-flex flex-column justify-content-end">
+        <h5>THE BEGINNING OF YOUR</h5>
+        <h1>LEYENDA</h1>
+      </div>
+      <div class="titleDescription d-flex flex-column justify-content-center">
+        <p class="">Leyenda is a roleplaying game that provides everything your group needs to create their own legendary tale. The Scenarios provide endless inspiring possibilities to create and embody their protagonists. They will face dramatic conflicts while pursuing their motivations, bringing them closer to resolve the crisis which affects their community. Thus, answering the narrative inquiry that the Premise proposes for the Scenario.</p>
+      </div>
+      <div class="imgTeodoraContainer d-flex justify-content-end">
+        <img class="imgTeodora" src="./public/images/TeodoraWeb.webp" alt="Teodora y Cisne">
+      </div>
+    </div>
+  </section>
+
+  <section id="juegoRol">
+    <div class="gridRol row">
+      <div class="imgRolContainer">
+        <img class="imgDados" src="./public/images/DadosWeb.webp" alt="Imagen Dados">
+      </div>
+      <div class="titleRolContainer d-flex justify-content-center">
+        <h2 class="juegoRolTitle">ROLE-PLAYING GAME</h2>
+      </div>
+      <div class="textRolContainer">
+        <p class="juegoRolDescription">Roleplaying games are games of social fiction: the rules guide the creation of group fiction. The game Director describes interesting fictional situations, the other Players decide how their protagonists face them. When conflict arises, the rules will be there to help them unveil what happens next. What will they uncover about the world? What challenges will they face? What story will they create by playing?</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="leyendaEspecial">
+    <div class="top-content">
+      <div class="container">
+        <div>
+          <!-- Carousel -->
+          <div id="carouselLeyenda" class="carousel slide" data-ride="false" data-bs-interval="false">
+
+            <ol class="carousel-indicators d-flex align-items-end">
+              <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example" data-slide-to="1"></li>
+              <li data-target="#carousel-example" data-slide-to="2"></li>
+              <li data-target="#carousel-example" data-slide-to="3"></li>
+            </ol>
+
+            <div class="carousel-inner">
+              <div class="carousel-item active primerSlide">
+                <div class="row">
+                  <div class="d-flex align-items-center col-lg-6 carouselImgMobile">
+                    <img class="imgSlide1" src="./public/images/CoroRolesPortada.webp" alt="Imagen Slide 1">
+                  </div>
+                  <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                    <div class="carouselTitleMobile">
+                      <h3>PREMADE SCENARIOS</h3>
+                      <ul class="carouselText">
+                        <li>An isle abandoned to the ambition of their regent’s suitors. Will they fear the Unexpected Return of their former regent?</li>
+                        <li>A space colony loses its chance of being reborn. To what extent will they cling to a New Life?</li>
+                        <li>A Frost Veil coats the realm in secrets and treason. Who can you trust?</li>
+                        <li>A continent plunged in a civil war. Who deserves to become the Owners of Fate?</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item segundoSlide">
+                <div class="row">
+                  <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                    <div class="carouselTitleMobile">
+                      <h3>CREATE YOUR SCENARIOS</h3>
+                      <p class="carouselText">Starting with a community, what are their moral Principles? What is the crisis that afflicts it? Maybe someone’s Ambition is changing it; it must repair a transgression embarking on a Mission; suffers the Intrigue among factions; or the oppressed launch a Rebellion against the powerful.</p>
+                    </div>
+                  </div>
+                  <div class="d-flex align-items-center col-lg-6 carouselImgMobile">
+                    <img class="imgSlide1" src="./public/images/EscenasRolesPortada.webp" alt="Imagen Slide 2">
+                  </div>
+
+                </div>
+              </div>
+              <div class="carousel-item tercerSlide">
+                <div class="row">
+                  <div class="d-flex align-items-center col-lg-6 carouselImgMobile">
+                    <img class="imgSlide1" src="./public/images/AmbicionCreacionPortada.webp" alt="Imagen Slide 3">
+                  </div>
+                  <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                    <div class="carouselTitleMobile">
+                      <h3>THE ROLE OF THE CHORUS</h3>
+                      <p class="carouselText">In Leyenda you can also play as a member of the Chorus: you will judge the actions of the protagonists and decide how they shape the world. Helping mold the type of legendary tale you are about to create.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item cuartoSlide">
+                <div class="row">
+                  <div class="col-lg-6 d-flex justify-content-center align-items-center">
+                    <div class="carouselTitleMobile">
+                      <h3>LEGENDARY DICE</h3>
+                      <p class="carouselText">Each protagonist has a Legendary Trait that makes them unique. If they use it to overcome a dramatic challenge; their Player throws the Legendary Dice. Will their effort become a tragic failure or an epic success?</p>
+                    </div>
+                  </div>
+                  <div class="d-flex align-items-center col-lg-6 carouselImgMobile">
+                    <img class="imgSlide1" src="./public/images/EjemploReglasPortada.webp" alt="Imagen Slide 4">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#carouselLeyenda" role="button" data-slide="prev">
+              <i class="fa fa-chevron-left"></i>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselLeyenda" role="button" data-slide="next">
+              <i class="fa fa-chevron-right"></i>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+          <!-- End carousel -->
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="callTienda">
+    <div class="gridTienda">
+      <div class="containerTiendaTexto">
+        <h3 class="callTexto">HOW WILL YOUR LEGEND UNFOLD?</h3>
+      </div>
+      <div class="containerTiendaButton">
+        <a href="https://www.espacioartedual.com/producto/leyenda-juego-de-rol-incluye-dado-legendario/" target="_blank">
+          <button class="callButton btn btn-lg btn-primary shadow-none" type="button" name="tienda">STORE</button>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</body>
+
+</html>
